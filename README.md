@@ -1,16 +1,16 @@
-# testingflutter
+# how to run 
 
-A new Flutter project.
+## get dpendency
+``` flutter pub get ```
 
-## Getting Started
+## install node
+``` npm install cucumber-html-reporter ```
 
-This project is a starting point for a Flutter application.
+## test login feature
+``` flutter drive --driver=test_driver/config/login/app_login.dart ```
 
-A few resources to get you started if this is your first Flutter project:
+## see report
+``` open node_modules/cucumber-html-reporter/samples/html_reports/cucumber_report_bootstrap.html ```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## output
+<img width="1270" alt="Screenshot 2022-11-02 at 15 19 00" src="https://user-images.githubusercontent.com/91040581/199438092-5d66644f-605a-4dc4-8f7e-b38427b7df12.png">
